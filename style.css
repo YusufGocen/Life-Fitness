@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+/* --Temel-- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: 'Playfair Display', serif;
+}
+/* Başlık */
+.anatema{
+    background-color: #f2f2f2;
+    display: flex;
+}
+#logo1{
+    margin-left: 2rem;
+    width: 10rem;
+    height: 10rem;
+}
+.baslık{
+    padding-top: 3rem;
+    display: flex;
+}
+.baslık1{
+    margin-top: 0.5rem;
+    display: flex;
+    list-style-type: none;
+    margin-left: 14rem;
+}
+.baslık a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: 900;
+    color:#1B1B1B ;
+}
+.baslık a:hover{
+    border-bottom: 0.5rem solid #53c68c;
+    color: #53c68c;
+    transition: 0.1s;
+}
+#giris{
+    margin-left: 7rem;
+}
+#üye{
+    text-align: center;
+    margin-left: 2rem;  
+}
+#bar{
+    display: none;
+    margin-top: 0;
+    text-align: right;
+}
+.btn{
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    background-color: #53c68c;
+    color: white;
+    border: 1px solid #53c68c;
+    border-radius: 0.8rem;
+    outline: none;
+}
+.btn:hover{
+    background-color: #f2f2f2;
+    color: #53c68c;
+    transition: 0.8s;
+}
+
+/* AnaResim */
+
+main{
+    background-image: url("Resimler/Baştaki.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 55.5rem;
+}
+main::before{
+    content: "";
+    position: absolute;
+    top: 10.5rem;
+    left: 0;
+    height: 55.5rem;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+main *{
+    z-index: 5;
+}
+.acıklama{
+    color: white;
+    font-size: 5rem;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+.katıl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12rem;
+}
+/* Tanıtım */
+
+.LifeFitness{
+    margin: 10rem 2rem;
+}
+.tanıtım{
+    display: flex;
+}
+.tanıtım p{
+    font-size: 2rem;
+    color: #7B838C;
+}
+#isim{  
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 2rem;
+    margin-left: 22rem;
+}
+#isim2{
+    color: #53c68c;
+    font-size: 5rem;
+    display: block;
+    margin: 5rem;
+    text-align: center;
+}
+#isim3{
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 2rem;
+}
+.soltaraf{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.sagtaraf{
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+#resim1{
+    border: 2px solid #1B1B1B;
+    border-radius: 2px;
+    height: 50rem;
+    width: 60rem;
+}
+#resim2{
+    border: 2px solid #1B1B1B;
+    border-radius: 2px;
+    height: 50rem;
+    width: 60rem;
+}
+#resim1:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 3s;
+}
+#resim2:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 3s;
+}
+/* Kulüpler */
+
+.Kulüpler{
+    margin-top: 10rem;
+}
+.kulüpler{
+    display: flex;
+    flex: 25%;
+}
+.kulüpler p{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight:400;
+    text-align: center;
+}
+.kulüpler h1{
+    color: #1B1B1B;
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+#istanbul-gym{
+    padding: 0.8rem;
+}
+#gym-image1{
+    height: 32rem;
+    width: 32rem;
+}
+#gym-image2{
+    height: 32rem;
+    width: 32rem;
+}
+#gym-image3{
+    height: 32rem;
+    width: 32rem;
+}
+#gym-image4{
+    height: 32rem;
+    width: 32rem;
+}
+.gym-image:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 2s;
+}
+#gym-name{
+    display: block;
+    margin: 5rem;
+    font-size: 4rem;
+    text-align: center;
+    color: #53c68c;
+    text-transform: uppercase;
+}
+.more{
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #53c68c;
+}
+.more:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.1s;
+}
+/* İmkanlar */
+.İmkanlar{
+    margin-top: 10rem;
+}
+#possibility-name{
+    margin: 3rem;
+    display: block;
+    text-align: center;
+    color: #53c68c;
+    font-size: 2.5rem;
+}
+.possibility{
+    display: flex;  
+    margin-left: 2.5rem;
+}
+#gym-possibility{
+    padding: 2rem;
+}
+.possibility h1{
+    color: #1B1B1B;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+.possibility p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.yoga-image{
+    height: 50rem;
+    width: 40rem;
+}
+.box-image{
+    height: 50rem;
+    width: 40rem;
+}
+.havuz-image{
+    height: 50rem;
+    width: 40rem;
+}
+#possibility-image:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 2s;
+}
+.more2{
+    color: #53c68c;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.more2:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #53c68c;
+}
+/* Etkinlik */
+.Etkinlikler{
+    margin-top: 15rem;
+    background-color: #1B1B1B;
+    height: 83rem;
+}
+.etkinlik{
+    padding-top: 8rem;
+}
+.activity-name{ 
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    color: #f2f2f2;
+}
+.activity{
+    display: flex;
+}
+#activity-head{
+    font-weight: 900;
+    font-size: 5.5rem;
+}
+.activity h1{
+    padding: 0.8rem;
+    font-size: 3.5rem;
+    color: #f2f2f2;
+}
+.activity p{
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: #f2f2f2;
+}
+#activity-head2{
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: #f2f2f2;
+}
+.activity-image1{
+    height: 50rem;
+    width: 40rem;   
+}
+.activity-image2{
+    height: 50rem;
+    width: 40rem;
+}
+#activity-image:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 1s;
+}
+.btn-check{
+    display: block;
+    font-size: 1.8rem;
+    padding: 1rem 5rem;
+    margin: 3rem 1rem;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    color: #f2f2f2;
+}
+.btn-check:hover{
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: #1B1B1B;
+    transition: 1s;
+}
+/* Üyelik */
+.Paketler{
+    margin-top: 10rem;
+    background-color: #f2f2f2;
+}
+.paket-name{
+    display: block;
+    text-align: center;
+    color: #53c68c;
+    font-size: 5rem;
+    padding: 10rem;
+}
+.üyelikler{
+    display: flex; 
+    padding: 2.5rem;
+}
+.classic{
+    background-color: white;
+    text-align: center;
+     padding: 1rem 10rem;
+     cursor: pointer;
+     border: 1px solid  #d9d9d9;
+    border-radius: 5px;
+    box-shadow: -5px 5px 15px  #424949
+}
+.Silver{
+    background-color: white;
+    text-align: center;
+     padding: 1rem 10rem;
+     margin-left: 5rem;
+     cursor: pointer;
+     border: 1px solid  #d9d9d9;
+    border-radius: 5px;
+    box-shadow: -5px 5px 15px  #424949
+}
+.Gold{
+    background-color: white;
+    text-align: center;
+    padding: 1rem 9.5rem;
+    margin-left: 5rem;
+    cursor: pointer;
+    border: 1px solid  #d9d9d9;
+    border-radius: 5px;
+    box-shadow: -5px 5px 15px  #424949
+}
+.classic:hover{
+    transform: translateY(-20px);
+    transition: .7s;
+}
+.Silver:hover{
+    transform: translateY(-20px);
+    transition: .7s;
+}
+.Gold:hover{
+    transform: translateY(-20px);
+    transition: .7s;
+}
+.classic-head{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #1B1B1B;
+    padding: 1rem;
+}
+.silver-head{
+    color: #666666;
+    font-size: 4rem;
+    font-weight: 900;
+    padding: 1rem;
+}
+.gold-head{
+    color: #ccad00;
+    font-size: 4rem;
+    font-weight: 900;
+    padding: 1rem;
+}
+.çizik{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: #7B838C;
+    text-decoration: line-through;
+}
+.fiyat-ay{
+    display: flex;
+}
+.fiyat-ay h1{
+    display: block;
+    font-size: 6rem;
+}
+.fiyat-ay h2{
+    font-size: 3rem;
+    padding: 3rem 1rem;
+}
+.fiyat-ay h3{
+    font-size: 2rem;
+    padding-top: 4rem;
+    color: #7B838C  ;
+}
+.btn-paket{
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background-color: #53c68c;
+    color: #f2f2f2;
+    border: 1px solid #53c68c;
+    border-radius: 3px;
+}
+.btn-paket:hover{
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: #53c68c;
+    transition: 1s;
+}
+.ozellikler{
+    font-size: 1.4rem;
+}
+.çizgi{
+   margin: 3rem;
+}
+/* Footer */
+footer{
+    margin-top: 10rem;
+    padding-top: 5rem;
+    background-color: #1B1B1B;
+    color: #f2f2f2;
+}
+.son{
+    display: flex;  
+}
+.son h1{
+    color: #7B838C;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.iletişim{
+    margin-left: 15rem;
+}
+.fa-solid{
+    font-size: 1.8rem;
+}
+.numara{
+    font-size: 2rem ;
+}
+.saatler{
+    padding-top: 2rem;
+}
+.şubeler{
+    margin-left: 25rem;
+}
+.şubeler ul li{
+    list-style-type: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+.social{
+    margin-left: 25rem;
+}
+.fa-brands{
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    transition: 1s;
+    transform: translateY(-5px);
+}
+#instagram:hover{
+    color: #DD2A7B;
+}
+#twitter:hover{
+    color: #00aced;
+}
+#youtube:hover{
+    color: #bb0000
+}
+#facebook:hover{
+    color: #3b5998;
+}
+.haklar{
+    text-align: center;
+    margin-top: 5rem;
+    color: #7B838C;
+    font-size: 1.2rem;
+}

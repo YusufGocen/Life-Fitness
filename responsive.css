@@ -1,0 +1,224 @@
+@media (min-width: 414px) and (max-width: 736px) {
+    html{
+        font-size: 8px;
+    }
+    body{
+        background-color: #f2f2f2;
+        font-family: 'Playfair Display', serif;
+    }
+    #logo1{
+        margin-top: 5px;
+        margin-left: 1rem;
+        width: 8rem;
+        height: 8rem;
+    }
+    .baslık1{
+        display: none;
+    }
+    .btn{
+        padding: 8px 10px;
+    }
+    #giris{
+        font-size: 8px;
+        margin-left: 60px;
+    }
+    #üye{
+        font-size: 8px;
+        
+    }
+    #bar{
+        color: #53c68c;
+        cursor: pointer;
+        display: block;
+        margin-top: 5px;
+        margin-right: 5px;
+        float: right;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    /* ------------ */
+    main{
+       width: 267px;
+       height: 350px;
+    }
+    main::before{
+        height: 350px;
+        top: 9rem;
+        width: 267px;
+    }
+    .acıklama{
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+    .katıl{
+        padding-top: 10rem;
+    }
+    /* ------------ */
+    .LifeFitness{
+        margin: 0;
+    }
+    .tanıtım{
+        display: flex;
+        flex-direction: column;
+    }
+    #isim2{
+        font-size: 30px;
+        margin-right: 22rem;
+    }
+    .soltaraf{
+        margin: 0;
+    }
+    .sagtaraf{
+        margin: 0;
+    }
+    #isim{
+        margin-left: 9rem;
+    }
+    #isim3{
+        width: 280px;
+        font-size: 15px;
+    }
+    .tanıtım p{
+        font-size: 14px;
+        text-align: center;
+        width: 267px;
+    }
+    #resim1{
+        width: 267px;
+        height: 300px;
+    }
+    #resim2{
+        width: 267px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    /* ---------- */
+    #gym-name{
+        margin-right: 22rem;
+    }
+    .kulüpler{
+        display: flex;
+        flex-direction: column;
+    }
+    .kulüpler p{
+        font-size: 14px;
+        width: 267px;
+        text-align: center;
+    }
+    .kulüpler h1{
+        margin-right: 16rem;
+        margin-top: 10px;
+    }
+    .more{
+        padding-bottom: 30px;
+        margin-right: 18rem;
+    }
+    #istanbul-gym{
+        padding: 0;
+    }
+    #gym-image1{
+        width: 267px;
+    }
+    #gym-image2{
+        width: 267px;
+    }
+    #gym-image3{
+        width: 267px;
+    }
+    #gym-image4{
+        width: 267px;
+    }
+    /* ---------- */
+    .İmkanlar{
+        margin-top: 5rem;
+    }
+    #possibility-name{
+        margin: 0;
+        font-size: 20px;
+        margin-right: 19rem;
+        padding: 20px;
+    }
+    .possibility{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    #gym-possibility{
+        padding: 0;
+    }
+    .possibility h1{
+        margin-right: 17rem;
+    }
+    .possibility p{
+        width: 267px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .yoga-image{
+        width: 267px;
+    }
+    .box-image{
+        width: 267px;
+    }
+    .havuz-image{
+        width: 267px;
+    }
+    .more2{
+        margin-left: 12rem;
+        font-size: 2rem;
+    }
+    /* ---------------- */
+    .Etkinlikler{
+        width: 268px;
+        height: 550px;
+    }
+    .etkinlik{
+        padding-top: 1rem;
+    }
+    .activity{
+        display: flex;
+        flex-direction: column;
+    }
+    #activity-head{
+        width: 267px;
+        font-size: 25px;
+    }
+    #activity-image{
+        display: none;
+    }
+    .activity h1{
+        margin-top: 30px;
+    }
+    .activity p{
+        font-size: 14px;
+    }
+    /* ----------- */
+    .paket-name{
+        font-size: 25px;
+        margin-right: 14rem;
+        padding: 8px;
+        width: 267px;
+    }
+    .üyelikler{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .classic{
+        width: 267px;
+        margin: 20px 0px;
+    }
+    .Silver{
+        width: 267px;
+        margin: 20px 0px;
+    }
+    .Gold{
+        width: 267px;
+        margin: 20px 0px;
+    }
+    /* ----------------- */
+    footer{
+        width: 267px;
+    }
+
+}
